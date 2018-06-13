@@ -1,11 +1,16 @@
 'use strict';
 
-var String = function (input) {
-  return '';
-};
+// var String = function (value) {
+//   this.value = value;
+// };
 
-String.prototype.reverseString = function () {
-  return '';
-};
+// String.prototype.reverseString = function () {
+//   return this.value.split('').reverse().join('');
+// };
 
-module.exports = String;
+function reverseString(word) {
+  return word.split('').reverse().join('');
+}
+
+module.exports = reverseString;
+
